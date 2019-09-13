@@ -62,6 +62,34 @@ body {
           justify-content: center;
 }
 
+@media only screen and (max-width: 1300px) {
+  .wrapper-illustration {
+    -webkit-background-size: 250% 250%;
+            background-size: 250%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper-illustration {
+    -webkit-background-size: 300% 300%;
+            background-size: 300%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .wrapper-illustration {
+    -webkit-background-size: 350% 350%;
+            background-size: 350%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrapper-illustration {
+    -webkit-background-size: 400% 400%;
+            background-size: 400%;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .wrapper-illustration {
     max-width: 100%;

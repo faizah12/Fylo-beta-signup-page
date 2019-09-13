@@ -51,6 +51,22 @@ body {
         align-items: center;
         justify-content: center;
 
+        @media only screen and (max-width: 1300px) {
+            background-size: 250%;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            background-size: 300%;
+        }
+
+        @media only screen and (max-width: 1100px) {
+            background-size: 350%;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            background-size: 400%;
+        }
+
         @media only screen and (max-width: 769px) {
             max-width: 100%;
             display: flex;
