@@ -43,7 +43,11 @@ body {
       -ms-flex-preferred-size: 47%;
           flex-basis: 47%;
   max-width: 47%;
-  background: #5147d7;
+  background: url("../images/bg-intro.svg");
+  -webkit-background-size: 200% 200%;
+          background-size: 200%;
+  background-position: center center;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -73,11 +77,8 @@ body {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background: url("../images/bg-intro.svg");
     -webkit-background-size: cover;
             background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     -webkit-background-origin: border-box;
             background-origin: border-box;
     height: 120vh;
